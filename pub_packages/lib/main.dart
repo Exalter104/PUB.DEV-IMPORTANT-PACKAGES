@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pub_packages/easymod.dart';
 import 'package:pub_packages/hangman.dart';
 import 'package:pub_packages/homescreen.dart';
 
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
       routes: {
         Hangman.id: ((context) => const Hangman()),
         HomeScreen.id: ((context) => const HomeScreen()),
+        Easymod.id: ((context) => const Easymod()),
       },
     );
   }

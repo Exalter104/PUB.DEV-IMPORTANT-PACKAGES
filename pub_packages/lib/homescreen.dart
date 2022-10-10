@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pub_packages/easymod.dart';
 
 class HomeScreen extends StatefulWidget {
   static const String id = "homescreen";
@@ -29,7 +30,7 @@ class _HomeScreenState extends State<HomeScreen> {
               minWidth: 250,
               height: 50,
               onPressed: () {
-                Navigator.pushNamed(context, HomeScreen.id);
+                Navigator.pushNamed(context, Easymod.id);
               },
               child: const Text(
                 "EASY MODE",

@@ -40,8 +40,10 @@ class _HangmanState extends State<Hangman> {
                       ),
                       child: AnimatedTextKit(
                         animatedTexts: [
-                          TypewriterAnimatedText('H_NG__N'),
+                          WavyAnimatedText('HANGMAN GAME'),
+                          // WavyAnimatedText('GAME'),
                         ],
+                        // TypewriterAnimatedText('HANGMA],
                       ),
                     )),
                 const SizedBox(
@@ -61,15 +63,6 @@ class _HangmanState extends State<Hangman> {
                 const SizedBox(
                   height: 15,
                 ),
-                MaterialButton(
-                    color: Colors.white,
-                    minWidth: 250,
-                    height: 50,
-                    onPressed: () {},
-                    child: const Text(
-                      "MODES",
-                      style: TextStyle(fontSize: 19),
-                    )),
               ],
             ),
           ]),
