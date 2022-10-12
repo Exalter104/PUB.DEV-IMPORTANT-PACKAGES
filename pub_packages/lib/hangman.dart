@@ -40,7 +40,7 @@ class _HangmanState extends State<Hangman> {
                       ),
                       child: AnimatedTextKit(
                         animatedTexts: [
-                          WavyAnimatedText('HANGMAN GAME'),
+                          WavyAnimatedText('WELCOME TO HANGMAN'),
                           // WavyAnimatedText('GAME'),
                         ],
                         // TypewriterAnimatedText('HANGMA],
